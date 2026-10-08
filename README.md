@@ -5,7 +5,7 @@
 ## New in v1.0
 A **new authenticated `/v1` governed-agent API** combines LangGraph checkpointed interrupts, a simulated Customer Risk Assessment, approval/rejection, PostgreSQL audit events and Microsoft Entra JWT verification. This extends the v0.9 repository; earlier labs, Apex/Groovy/ServiceNow examples, Terraform and observability configuration remain included.
 
-**Security and maturity statement:** The v1 flow is a functional integration scaffold, **not production-ready**. The evidence is deterministic fixture data; actions are simulated, not sent to Salesforce, Jira or ServiceNow. Entra must be configured for the new endpoints. The older demo routes retain their earlier authentication limitations and must not be exposed publicly. PostgreSQL checkpoint and audit persistence require an actual database and initialization. No real Azure deployment or SaaS integration has been verified.
+**Security and maturity statement:** The v1 flow is a functional integration scaffold, **not production-ready**. The evidence is deterministic fixture data; actions are simulated, not sent to Salesforce, Jira or ServiceNow. Entra must be configured for the new endpoints. The older demo routes retain their earlier authentication limitations and must not be exposed publicly. PostgreSQL checkpoint and audit persistence require an actual database and initialization.
 
 ## Quick start
 Read [v1.0 Runbook](docs/V10_RUNBOOK.md) and [Architecture / Threat Model](docs/V10_ARCHITECTURE.md).
